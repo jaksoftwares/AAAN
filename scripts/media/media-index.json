@@ -428,6 +428,14 @@
     "publicPath": "/media/aaron2.jpg"
   },
   {
+    "source": "assets\\directors\\Bruno Comoe.png",
+    "publicPath": "/media/bruno-comoe.png"
+  },
+  {
+    "source": "assets\\directors\\camara.png",
+    "publicPath": "/media/camara.png"
+  },
+  {
     "source": "assets\\directors\\Esi Mensah-Boateng.png",
     "publicPath": "/media/esi-mensah-boateng.png"
   },

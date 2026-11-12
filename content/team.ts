@@ -10,9 +10,11 @@ export type Person = {
   role: string;
   group: "Board of Directors" | "Executive team" | "Country management";
   office: string;
-  qualification: string;
+  // Optional until supplied: the page only shows what AAAN has confirmed.
+  qualification?: string;
   bio: string;
-  photo: string;
+  // Optional until the photograph is supplied; the page shows the initials instead.
+  photo?: string;
   photoAlt: string;
 };
 
@@ -94,6 +96,28 @@ export const team: Person[] = [
     photo: "/media/joseph-kariuki.png",
     photoAlt: "Portrait of Joseph Kariuki",
   },
+{
+  slug: "bruno-comoe",
+  name: "Bruno Comoé",
+  role: "Country Manager, Côte d'Ivoire",
+  group: "Board of Directors",
+  office: "Abidjan, Côte d'Ivoire",
+  qualification: "Procurement",
+  bio: "Bruno leads AAAN's operations in Côte d'Ivoire from Abidjan, working with cocoa, cashew and fruit farmers and cooperatives across the country.",
+  photo: "/media/bruno-comoe.png",
+  photoAlt: "Portrait of Bruno Comoé",
+},
+{
+  slug: "adjoumani-camara",
+  name: "Adjoumani Camara",
+  role: "Head of Processing Operations, Côte d'Ivoire",
+  group: "Board of Directors",
+  office: "Bouaké, Côte d'Ivoire",
+  qualification: "BSc Business Management",
+  bio: "Adjoumani leads AAAN's processing plants in Côte d'Ivoire, where cocoa and cashew become products ready for export. She oversees production, food safety and the plants' teams.",
+  photo: "/media/camara.png",
+  photoAlt: "Portrait of Adjoumani Camara",
+},
 ];
 
 export const boardMembers = team.filter((p) => p.group === "Board of Directors");

@@ -121,13 +121,27 @@ export function NewsCard({ article }: { article: Article }) {
 }
 
 export function PersonCard({ person }: { person: Person }) {
+  const initials = person.name
+    .split(" ")
+    .map((part) => part[0])
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
   return (
     <article className="flex flex-col overflow-hidden rounded-lg border border-line bg-surface">
-      <Photo src={person.photo} alt={person.photoAlt} className="aspect-[4/5]" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" fit="cover" />
+      {person.photo ? (
+        <Photo src={person.photo} alt={person.photoAlt} className="aspect-[4/5]" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" fit="cover" />
+      ) : (
+        <div role="img" aria-label={person.photoAlt} className="flex aspect-[4/5] items-center justify-center bg-forest font-display text-[48px] font-semibold text-ivory">
+          {initials}
+        </div>
+      )}
       <div className="flex flex-1 flex-col gap-2 p-6">
         <h3 className="font-display text-[22px] font-semibold leading-7 text-ink">{person.name}</h3>
         <p className="text-[15px] font-bold text-ink-brand">{person.role}</p>
-        <p className="text-[14px] text-ink-muted">{person.office} · {person.qualification}</p>
+        <p className="text-[14px] text-ink-muted">
+          {[person.office, person.qualification].filter(Boolean).join(" · ")}
+        </p>
         <p className="mt-3 text-[15px] leading-6 text-ink">{person.bio}</p>
       </div>
     </article>
