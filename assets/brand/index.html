@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AAAN brand assets</title>
+<meta name="description" content="Logos, icons, colours, fonts and social templates for AAAN, generated from the AAAN Brand Kit.">
+<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="colour/brand-tokens.css">
+<style>
+  @font-face { font-family: "Fraunces"; src: url("fonts/Fraunces-Variable.ttf") format("truetype"); font-weight: 100 900; font-display: swap; }
+  @font-face { font-family: "Manrope"; src: url("fonts/Manrope-Variable.ttf") format("truetype"); font-weight: 200 800; font-display: swap; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--aaan-surface); color: var(--aaan-ink); font-family: var(--aaan-font-sans); font-size: 16px; line-height: 26px; }
+  img { display: block; max-width: 100%; height: auto; }
+  a { color: var(--aaan-ink-brand); }
+  code, .mono { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 14px; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+  section { padding: 64px 0; border-top: 1px solid var(--aaan-line); }
+  section.alt { background: var(--aaan-surface-ivory); }
+  .eyebrow { font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--aaan-ink-brand); margin: 0 0 8px; }
+  h1, h2 { font-family: var(--aaan-font-display); font-weight: 600; line-height: 1.1; margin: 0 0 16px; }
+  h1 { font-size: 64px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 22px; line-height: 30px; font-weight: 700; margin: 0 0 6px; }
+  p { margin: 0 0 12px; max-width: 68ch; }
+  .lead { font-size: 18px; line-height: 30px; color: var(--aaan-ink-muted); }
+  .muted { color: var(--aaan-ink-muted); }
+  .small { font-size: 14px; line-height: 22px; }
+  /* header */
+  header.top { position: sticky; top: 0; z-index: 10; background: var(--aaan-surface); border-bottom: 1px solid var(--aaan-line); }
+  header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; flex-wrap: wrap; }
+  header.top img { height: 40px; width: auto; }
+  nav.links { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; font-weight: 600; }
+  nav.links a { text-decoration: none; color: var(--aaan-ink); }
+  nav.links a:hover { color: var(--aaan-ink-brand); text-decoration: underline; }
+  /* hero */
+  .hero { padding: 88px 0 72px; background: var(--aaan-surface-ivory); border-top: 0; }
+  .hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; }
+  .hero-logo { background: var(--aaan-surface); border-radius: var(--aaan-radius-xl); padding: 56px 40px; display: flex; align-items: center; justify-content: center; }
+  .hero-logo img { width: 100%; max-width: 440px; }
+  .tagline { font-family: var(--aaan-font-display); font-size: 40px; line-height: 46px; font-weight: 600; color: var(--aaan-brand-forest-green); margin: 0 0 16px; }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 12px 20px; border-radius: var(--aaan-radius-md); background: var(--aaan-brand-forest-green); color: var(--aaan-on-brand); font: 700 15px/20px var(--aaan-font-sans); text-decoration: none; border: 2px solid transparent; cursor: pointer; }
+  .btn:hover { background: var(--aaan-brand-forest-green-hover); }
+  .btn-ghost { background: transparent; color: var(--aaan-brand-forest-green); border-color: var(--aaan-brand-forest-green); }
+  .btn-ghost:hover { background: var(--aaan-surface); }
+  .btn-small { min-height: 36px; padding: 6px 12px; font-size: 14px; margin-top: 8px; }
+  button.btn, a.btn, .chip, a { outline-offset: 2px; }
+  :focus-visible { outline: 2px solid var(--aaan-focus-ring); outline-offset: 2px; }
+  /* cards and grids */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-top: 32px; }
+  .card { background: var(--aaan-surface); border: 1px solid var(--aaan-line); border-radius: var(--aaan-radius-lg); overflow: hidden; display: flex; flex-direction: column; }
+  .section.alt .card { background: var(--aaan-surface); }
+  .preview { aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; padding: 28px; border-bottom: 1px solid var(--aaan-line); }
+  .preview img { max-height: 100%; width: auto; max-width: 100%; }
+  .preview-wide { aspect-ratio: 16 / 9; }
+  .card-body { padding: 20px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 12px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: var(--aaan-radius-pill); border: 1px solid var(--aaan-line-strong); color: var(--aaan-ink-brand); text-decoration: none; font-size: 13px; font-weight: 600; background: transparent; }
+  .chip span { color: var(--aaan-ink-muted); font-weight: 500; }
+  .chip:hover { background: var(--aaan-surface-ivory); }
+  /* clear space */
+  .clear-demo { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; margin-top: 32px; }
+  .clear-box { position: relative; background: var(--aaan-surface); border: 1px solid var(--aaan-line); border-radius: var(--aaan-radius-lg); padding: 24px; display: flex; align-items: center; justify-content: center; }
+  .clear-box .frame { outline: 1px dashed var(--aaan-brand-cocoa-brown); outline-offset: 0; padding: 0; }
+  .clear-box .frame img { width: 300px; }
+  .clear-box .frame .clear-zone { padding: 32px; background: rgba(126, 179, 63, 0.12); }
+  .clear-box img { width: 280px; }
+  .min-row { display: flex; gap: 32px; align-items: flex-end; flex-wrap: wrap; }
+  .min-row figure { margin: 0; }
+  .min-row img { border: 1px dashed var(--aaan-line-strong); }
+  figcaption { font-size: 13px; color: var(--aaan-ink-muted); margin-top: 6px; }
+  /* colour */
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 32px; }
+  .swatch { border: 1px solid var(--aaan-line); border-radius: var(--aaan-radius-lg); overflow: hidden; background: var(--aaan-surface); }
+  .chip-colour { height: 96px; border-bottom: 1px solid var(--aaan-line); }
+  .swatch-body { padding: 14px 16px 16px; }
+  .swatch-body h3 { font-size: 16px; line-height: 22px; font-family: var(--aaan-font-sans); }
+  /* type */
+  .type-sample { background: var(--aaan-surface); border: 1px solid var(--aaan-line); border-radius: var(--aaan-radius-lg); padding: 40px; margin-top: 32px; }
+  .type-sample .display { font-family: var(--aaan-font-display); font-size: 64px; line-height: 68px; font-weight: 600; letter-spacing: -0.01em; color: var(--aaan-brand-forest-green); margin: 0 0 16px; }
+  .type-sample .body { font-size: 18px; line-height: 30px; color: var(--aaan-ink-muted); }
+  table { width: 100%; border-collapse: collapse; margin-top: 24px; font-size: 14px; background: var(--aaan-surface); }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--aaan-line); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--aaan-ink-muted); }
+  .table-wrap { overflow-x: auto; }
+  /* icons */
+  .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; margin-top: 24px; }
+  .icon-card { background: var(--aaan-surface); border: 1px solid var(--aaan-line); border-radius: var(--aaan-radius-lg); padding: 16px; display: flex; flex-direction: column; }
+  .icon-card h3 { font-size: 16px; line-height: 22px; font-family: var(--aaan-font-sans); text-transform: capitalize; }
+  .icon-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+  .tile { height: 88px; border-radius: var(--aaan-radius-md); background: var(--aaan-surface-ivory); display: flex; align-items: center; justify-content: center; }
+  .tile-green { background: var(--aaan-brand-forest-green); }
+  .subhead { font-size: 22px; font-family: var(--aaan-font-display); font-weight: 600; margin: 48px 0 0; }
+  /* favicons */
+  .fav-row { display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-end; margin-top: 24px; }
+  .fav { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .fav-img { width: 128px; height: 128px; display: flex; align-items: center; justify-content: center; background: var(--aaan-surface); border: 1px solid var(--aaan-line); border-radius: var(--aaan-radius-lg); }
+  footer { padding: 40px 0 56px; border-top: 1px solid var(--aaan-line); background: var(--aaan-brand-forest-green); color: var(--aaan-on-brand); }
+  footer a { color: var(--aaan-on-brand); }
+  footer .chip { color: var(--aaan-on-brand); border-color: var(--aaan-on-brand); }
+  footer .chip span { color: var(--aaan-on-brand); opacity: .8; }
+  footer .muted { color: var(--aaan-on-brand); opacity: .85; }
+  @media (max-width: 860px) {
+    h1 { font-size: 44px; line-height: 48px; }
+    h2 { font-size: 30px; }
+    .hero-grid, .clear-demo { grid-template-columns: 1fr; }
+    .hero { padding: 56px 0; }
+    .tagline { font-size: 30px; line-height: 36px; }
+    .type-sample .display { font-size: 44px; line-height: 48px; }
+    section { padding: 48px 0; }
+  }
+  @media (max-width: 520px) {
+    .wrap { padding: 0 16px; }
+    nav.links { gap: 10px; font-size: 13px; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <img src="logos/svg/aaan-logo-horizontal.svg" alt="AAAN">
+    <nav class="links" aria-label="Sections">
+      <a href="#logos">Logos</a>
+      <a href="#clear-space">Clear space</a>
+      <a href="#icons-app">Favicons</a>
+      <a href="#colour">Colour</a>
+      <a href="#type">Type</a>
+      <a href="#icons">Icons</a>
+      <a href="#social">Social</a>
+      <a href="AAAN-brand-assets.zip" download>Download all (ZIP)</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Brand asset library</p>
+      <h1>Every AAAN logo, icon and colour, ready to download.</h1>
+      <p class="tagline">From African Soil to Global Tables.</p>
+      <p class="lead">Built from the AAAN Brand Kit. Each file is generated from the kit's master artwork and colour tokens, so every download matches the guidelines. For French, the tagline is <em>Du sol africain aux tables du monde.</em></p>
+      <div class="actions">
+        <a class="btn" href="AAAN-brand-assets.zip" download>Download full kit (ZIP)</a>
+        <a class="btn btn-ghost" href="logos/svg/aaan-logo-horizontal.svg" download>Primary logo (SVG)</a>
+      </div>
+    </div>
+    <div class="hero-logo"><img src="logos/svg/aaan-logo-horizontal.svg" alt="AAAN, African Agricultural Advancement Network"></div>
+  </div>
+</section>
+
+<section id="logos">
+  <div class="wrap">
+    <p class="eyebrow">Logo system</p>
+    <h2>Logo variations</h2>
+    <p class="lead">Use the primary horizontal lockup by default. Choose the version that matches the ground you are printing or publishing on. Vector SVG is best for web and print; PNG is for slides, email and social.</p>
+    <div class="grid">
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/svg/aaan-logo-horizontal.svg" alt="Primary horizontal lockup" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Primary horizontal lockup</h3>
+        <p class="muted">Default. Website header, documents, signage, email signatures.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-logo-horizontal.svg" download>SVG<span>16 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-512.png" download>PNG 512<span>12 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-1024.png" download>PNG 1024<span>27 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-2048.png" download>PNG 2048<span>59 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/svg/aaan-logo-stacked.svg" alt="Stacked lockup" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Stacked lockup</h3>
+        <p class="muted">Square or narrow spaces: social banners, packaging fronts, merchandise.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-logo-stacked.svg" download>SVG<span>16 KB</span></a><a class="chip" href="logos/png/aaan-logo-stacked-512.png" download>PNG 512<span>18 KB</span></a><a class="chip" href="logos/png/aaan-logo-stacked-1024.png" download>PNG 1024<span>38 KB</span></a><a class="chip" href="logos/png/aaan-logo-stacked-2048.png" download>PNG 2048<span>88 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/svg/aaan-mark-primary.svg" alt="Brand mark" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Brand mark</h3>
+        <p class="muted">The mark alone, once the name is already on the page: footers, loaders, watermarks.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-mark-primary.svg" download>SVG<span>704 B</span></a><a class="chip" href="logos/png/aaan-mark-primary-512.png" download>PNG 512<span>16 KB</span></a><a class="chip" href="logos/png/aaan-mark-primary-1024.png" download>PNG 1024<span>37 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/svg/aaan-wordmark.svg" alt="Wordmark" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Wordmark</h3>
+        <p class="muted">Name-only uses where the mark already appears nearby.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-wordmark.svg" download>SVG<span>742 B</span></a><a class="chip" href="logos/png/aaan-wordmark-512.png" download>PNG 512<span>8 KB</span></a><a class="chip" href="logos/png/aaan-wordmark-1024.png" download>PNG 1024<span>16 KB</span></a><a class="chip" href="logos/png/aaan-wordmark-2048.png" download>PNG 2048<span>40 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-brand-forest-green)">
+        <img src="logos/svg/aaan-logo-horizontal-reversed.svg" alt="Reversed horizontal lockup" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Reversed horizontal lockup</h3>
+        <p class="muted">Forest green bands, dark photography and the dark theme.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-logo-horizontal-reversed.svg" download>SVG<span>16 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-reversed-512.png" download>PNG 512<span>12 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-reversed-1024.png" download>PNG 1024<span>26 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-reversed-2048.png" download>PNG 2048<span>58 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/svg/aaan-logo-horizontal-mono-green.svg" alt="One-colour horizontal lockup (forest green)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>One-colour horizontal lockup (forest green)</h3>
+        <p class="muted">One-colour print: stamps, embossing, single-ink packaging.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-logo-horizontal-mono-green.svg" download>SVG<span>16 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-mono-green-512.png" download>PNG 512<span>12 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-mono-green-1024.png" download>PNG 1024<span>26 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-mono-green-2048.png" download>PNG 2048<span>58 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-brand-forest-green)">
+        <img src="logos/svg/aaan-logo-horizontal-white.svg" alt="One-colour horizontal lockup (white)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>One-colour horizontal lockup (white)</h3>
+        <p class="muted">White on photographs, vehicles, sacks and containers.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-logo-horizontal-white.svg" download>SVG<span>16 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-white-512.png" download>PNG 512<span>13 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-white-1024.png" download>PNG 1024<span>29 KB</span></a><a class="chip" href="logos/png/aaan-logo-horizontal-white-2048.png" download>PNG 2048<span>62 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/svg/aaan-mark-mono-green.svg" alt="One-colour mark (forest green)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>One-colour mark (forest green)</h3>
+        <p class="muted">One-colour print of the mark alone.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-mark-mono-green.svg" download>SVG<span>831 B</span></a><a class="chip" href="logos/png/aaan-mark-mono-green-512.png" download>PNG 512<span>16 KB</span></a><a class="chip" href="logos/png/aaan-mark-mono-green-1024.png" download>PNG 1024<span>36 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-brand-forest-green)">
+        <img src="logos/svg/aaan-mark-white.svg" alt="One-colour mark (white)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>One-colour mark (white)</h3>
+        <p class="muted">White mark on photographs and dark grounds.</p>
+        <div class="chips"><a class="chip" href="logos/svg/aaan-mark-white.svg" download>SVG<span>803 B</span></a><a class="chip" href="logos/png/aaan-mark-white-512.png" download>PNG 512<span>15 KB</span></a><a class="chip" href="logos/png/aaan-mark-white-1024.png" download>PNG 1024<span>34 KB</span></a></div>
+      </div>
+    </article></div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Ready to use</p>
+    <h2>Logos with clear space</h2>
+    <p class="lead">Each presentation file has the brand clear space applied (half the mark's diameter on every side) on a ground the guidelines approve.</p>
+    <div class="grid">
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface)">
+        <img src="logos/on-ground/aaan-logo-horizontal_on-white.png" alt="Primary horizontal lockup on white" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Primary horizontal lockup on white</h3>
+        <p class="muted">Clear space applied on every side.</p>
+        <div class="chips"><a class="chip" href="logos/on-ground/aaan-logo-horizontal_on-white.png" download>PNG 2400<span>56 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface-ivory)">
+        <img src="logos/on-ground/aaan-logo-horizontal_on-ivory.png" alt="Primary horizontal lockup on ivory" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Primary horizontal lockup on ivory</h3>
+        <p class="muted">Clear space applied on every side.</p>
+        <div class="chips"><a class="chip" href="logos/on-ground/aaan-logo-horizontal_on-ivory.png" download>PNG 2400<span>57 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface-ivory)">
+        <img src="logos/on-ground/aaan-logo-stacked_on-ivory.png" alt="Stacked lockup on ivory" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Stacked lockup on ivory</h3>
+        <p class="muted">Clear space applied on every side.</p>
+        <div class="chips"><a class="chip" href="logos/on-ground/aaan-logo-stacked_on-ivory.png" download>PNG 2400<span>48 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-surface-ivory)">
+        <img src="logos/on-ground/aaan-mark-primary_on-ivory.png" alt="Brand mark on ivory" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Brand mark on ivory</h3>
+        <p class="muted">Clear space applied on every side.</p>
+        <div class="chips"><a class="chip" href="logos/on-ground/aaan-mark-primary_on-ivory.png" download>PNG 2400<span>28 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-brand-forest-green)">
+        <img src="logos/on-ground/aaan-logo-horizontal-reversed_on-forest-green.png" alt="Reversed horizontal lockup on forest-green" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>Reversed horizontal lockup on forest green</h3>
+        <p class="muted">Clear space applied on every side.</p>
+        <div class="chips"><a class="chip" href="logos/on-ground/aaan-logo-horizontal-reversed_on-forest-green.png" download>PNG 2400<span>58 KB</span></a></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="preview" style="background:var(--aaan-brand-forest-green)">
+        <img src="logos/on-ground/aaan-mark-white_on-forest-green.png" alt="One-colour mark (white) on forest-green" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3>One-colour mark (white) on forest green</h3>
+        <p class="muted">Clear space applied on every side.</p>
+        <div class="chips"><a class="chip" href="logos/on-ground/aaan-mark-white_on-forest-green.png" download>PNG 2400<span>26 KB</span></a></div>
+      </div>
+    </article></div>
+  </div>
+</section>
+
+<section id="clear-space">
+  <div class="wrap">
+    <p class="eyebrow">Usage rules</p>
+    <h2>Clear space and minimum size</h2>
+    <div class="clear-demo">
+      <div class="clear-box">
+        <div class="frame"><div class="clear-zone"><img src="logos/svg/aaan-logo-horizontal.svg" alt="Primary lockup with clear space"></div></div>
+      </div>
+      <div>
+        <p><strong>Clear space.</strong> Keep empty space around the logo of at least half the mark's diameter on every side. Nothing else enters this zone: no text, photos or edges.</p>
+        <p><strong>Minimum size.</strong> Horizontal lockup 140 px wide on screen (35 mm in print). Mark alone 24 px on screen (10 mm in print). Below these sizes, use the app icon.</p>
+        <div class="min-row" style="margin-top:20px">
+          <figure><img src="logos/svg/aaan-logo-horizontal.svg" alt="" width="140"><figcaption>140 px minimum</figcaption></figure>
+          <figure><img src="logos/svg/aaan-mark-primary.svg" alt="" width="24" height="24"><figcaption>24 px minimum (mark)</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="icons-app" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">App and browser</p>
+    <h2>Favicons and app icons</h2>
+    <p class="lead">The app icon is the rising seedling on a forest green rounded square. Use it for favicons, app icons and anywhere the full lockup will not fit.</p>
+    <div class="fav-row"><figure class="fav"><div class="fav-img"><img src="favicon/favicon-16.png" alt="AAAN icon 16 px" width="16" height="16"></div><figcaption>16 px</figcaption><a class="chip" href="favicon/favicon-16.png" download>PNG<span>413 B</span></a></figure><figure class="fav"><div class="fav-img"><img src="favicon/favicon-32.png" alt="AAAN icon 32 px" width="32" height="32"></div><figcaption>32 px</figcaption><a class="chip" href="favicon/favicon-32.png" download>PNG<span>790 B</span></a></figure><figure class="fav"><div class="fav-img"><img src="favicon/favicon-48.png" alt="AAAN icon 48 px" width="48" height="48"></div><figcaption>48 px</figcaption><a class="chip" href="favicon/favicon-48.png" download>PNG<span>1 KB</span></a></figure><figure class="fav"><div class="fav-img"><img src="favicon/apple-touch-icon-180.png" alt="AAAN icon 180 px" width="128" height="128"></div><figcaption>180 px</figcaption><a class="chip" href="favicon/apple-touch-icon-180.png" download>PNG<span>3 KB</span></a></figure><figure class="fav"><div class="fav-img"><img src="favicon/icon-192.png" alt="AAAN icon 192 px" width="128" height="128"></div><figcaption>192 px</figcaption><a class="chip" href="favicon/icon-192.png" download>PNG<span>4 KB</span></a></figure><figure class="fav"><div class="fav-img"><img src="favicon/icon-512.png" alt="AAAN icon 512 px" width="128" height="128"></div><figcaption>512 px</figcaption><a class="chip" href="favicon/icon-512.png" download>PNG<span>12 KB</span></a></figure></div>
+    <p class="small muted" style="margin-top:24px">Downloads: <a href="favicon/favicon.ico" download>favicon.ico</a> (16, 32, 48 px), <a href="favicon/favicon.svg" download>favicon.svg</a> (vector).</p>
+  </div>
+</section>
+
+<section id="colour">
+  <div class="wrap">
+    <p class="eyebrow">Colour</p>
+    <h2>Palette and tokens</h2>
+    <p class="lead">Forest green is the brand. Harvest gold is the spark. About 60% of any page should be light grounds, 25% forest green, 10% gold and 5% cocoa brown and leaf green. Tokens are in <a href="colour/brand-tokens.css">brand-tokens.css</a> and <a href="colour/brand-palette.json">brand-palette.json</a>.</p>
+    <div class="swatches">
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-brand-forest-green)"></div>
+        <div class="swatch-body">
+          <h3>brand-forest-green</h3>
+          <p class="mono">#0E4D2C</p>
+          <p class="muted small">Primary brand colour. Logo disc, primary buttons, hero bands, footer. Pair with on-brand text.</p>
+          <button type="button" class="btn btn-small" data-copy="#0E4D2C">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-brand-harvest-gold)"></div>
+        <div class="swatch-body">
+          <h3>brand-harvest-gold</h3>
+          <p class="mono">#E2A529</p>
+          <p class="muted small">Accent fill: key numbers, highlights, the logo's furrow arcs and leaf, secondary call-to-action fills with on-gold text. Never text on light surfaces (2.2:1).</p>
+          <button type="button" class="btn btn-small" data-copy="#E2A529">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-brand-cocoa-brown)"></div>
+        <div class="swatch-body">
+          <h3>brand-cocoa-brown</h3>
+          <p class="mono">#5B3A24</p>
+          <p class="muted small">Secondary brand colour for export, product and premium sections and the logo descriptor line. Text on surface-ivory passes at 9.2:1.</p>
+          <button type="button" class="btn btn-small" data-copy="#5B3A24">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-brand-leaf-green)"></div>
+        <div class="swatch-body">
+          <h3>brand-leaf-green</h3>
+          <p class="mono">#7DB33F (dark #9CCB63)</p>
+          <p class="muted small">Supporting fill for sustainability content, the logo's right leaf, chart series and illustration. Decorative only on light surfaces (2.5:1 on white); never text there.</p>
+          <button type="button" class="btn btn-small" data-copy="#7DB33F">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-brand-savanna-ivory)"></div>
+        <div class="swatch-body">
+          <h3>brand-savanna-ivory</h3>
+          <p class="mono">#F8F4EA</p>
+          <p class="muted small">Brand ivory: the warm off-white of print, section backgrounds and reversed logo marks.</p>
+          <button type="button" class="btn btn-small" data-copy="#F8F4EA">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-brand-charcoal)"></div>
+        <div class="swatch-body">
+          <h3>brand-charcoal</h3>
+          <p class="mono">#1F2622</p>
+          <p class="muted small">Brand near-black for print body text and dark photography overlays.</p>
+          <button type="button" class="btn btn-small" data-copy="#1F2622">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-surface)"></div>
+        <div class="swatch-body">
+          <h3>surface</h3>
+          <p class="mono">#FFFFFF (dark #0F1A14)</p>
+          <p class="muted small">Default page background.</p>
+          <button type="button" class="btn btn-small" data-copy="#FFFFFF">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-surface-ivory)"></div>
+        <div class="swatch-body">
+          <h3>surface-ivory</h3>
+          <p class="mono">#F8F4EA (dark #16261D)</p>
+          <p class="muted small">Alternate section background and cards on surface. The brand's signature warm ground.</p>
+          <button type="button" class="btn btn-small" data-copy="#F8F4EA">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-surface-sand)"></div>
+        <div class="swatch-body">
+          <h3>surface-sand</h3>
+          <p class="mono">#EFE8D8 (dark #1E3127)</p>
+          <p class="muted small">Raised or nested panels, table headers, stat strips on surface-ivory.</p>
+          <button type="button" class="btn btn-small" data-copy="#EFE8D8">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-ink)"></div>
+        <div class="swatch-body">
+          <h3>ink</h3>
+          <p class="mono">#1F2622 (dark #F3EFE4)</p>
+          <p class="muted small">Body and heading text on surface, surface-ivory and surface-sand (12.6:1 or more in both themes).</p>
+          <button type="button" class="btn btn-small" data-copy="#1F2622">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-ink-muted)"></div>
+        <div class="swatch-body">
+          <h3>ink-muted</h3>
+          <p class="mono">#56605A (dark #B5BDB7)</p>
+          <p class="muted small">Secondary text, captions and metadata on surface, surface-ivory and surface-sand (5.3:1 or more light, 8.2:1 or more dark).</p>
+          <button type="button" class="btn btn-small" data-copy="#56605A">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-ink-brand)"></div>
+        <div class="swatch-body">
+          <h3>ink-brand</h3>
+          <p class="mono">#0E4D2C (dark #9CCB63)</p>
+          <p class="muted small">Links, eyebrow labels and accent headings on surface and surface-ivory (9.0:1 or more light, 8.4:1 or more dark).</p>
+          <button type="button" class="btn btn-small" data-copy="#0E4D2C">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-ink-gold)"></div>
+        <div class="swatch-body">
+          <h3>ink-gold</h3>
+          <p class="mono">#8A5A12 (dark #E2A529)</p>
+          <p class="muted small">Gold-toned text on surface (5.9:1 light) and dark surfaces (7.3:1 or more). Use it where the design wants gold words; never brand-harvest-gold on light.</p>
+          <button type="button" class="btn btn-small" data-copy="#8A5A12">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-on-brand)"></div>
+        <div class="swatch-body">
+          <h3>on-brand</h3>
+          <p class="mono">#F8F4EA</p>
+          <p class="muted small">Text and icons on surface-brand and brand-forest-green fills (9.0:1).</p>
+          <button type="button" class="btn btn-small" data-copy="#F8F4EA">Copy hex</button>
+        </div>
+      </article>
+      <article class="swatch">
+        <div class="chip-colour" style="background:var(--aaan-on-gold)"></div>
+        <div class="swatch-body">
+          <h3>on-gold</h3>
+          <p class="mono">#1F2622</p>
+          <p class="muted small">Text and icons on brand-harvest-gold fills (7.1:1).</p>
+          <button type="button" class="btn btn-small" data-copy="#1F2622">Copy hex</button>
+        </div>
+      </article></div>
+  </div>
+</section>
+
+<section id="type" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Typography</p>
+    <h2>Fraunces and Manrope</h2>
+    <p class="lead">Fraunces carries the brand voice in headlines and figures. Manrope carries information: body text, labels and buttons. Both are free Google Fonts and support French accents.</p>
+    <div class="type-sample">
+      <p class="display">From African Soil to Global Tables</p>
+      <p class="body">AAAN advances African agriculture from seed to shelf, growing, processing and exporting quality produce from Kenya, Ghana and Côte d'Ivoire.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Style</th><th>Family</th><th>Size / line</th><th>Weight</th><th>Use</th></tr></thead>
+        <tbody><tr>
+          <td><code>display-xl</code></td>
+          <td>display</td>
+          <td>64px / 68px</td>
+          <td>600</td>
+          <td class="muted">Home page hero headline only. One per page.</td>
+        </tr><tr>
+          <td><code>display-lg</code></td>
+          <td>display</td>
+          <td>48px / 54px</td>
+          <td>600</td>
+          <td class="muted">Page heroes on inner pages.</td>
+        </tr><tr>
+          <td><code>stat-number</code></td>
+          <td>display</td>
+          <td>56px / 60px</td>
+          <td>600</td>
+          <td class="muted">Home page counters and key figures, in ink-brand or ink-gold.</td>
+        </tr><tr>
+          <td><code>heading-1</code></td>
+          <td>display</td>
+          <td>36px / 44px</td>
+          <td>600</td>
+          <td class="muted">Section titles.</td>
+        </tr><tr>
+          <td><code>heading-2</code></td>
+          <td>display</td>
+          <td>28px / 36px</td>
+          <td>600</td>
+          <td class="muted">Sub-section titles and card group titles.</td>
+        </tr><tr>
+          <td><code>heading-3</code></td>
+          <td>sans</td>
+          <td>22px / 30px</td>
+          <td>700</td>
+          <td class="muted">Card titles, crop names.</td>
+        </tr><tr>
+          <td><code>heading-4</code></td>
+          <td>sans</td>
+          <td>18px / 26px</td>
+          <td>700</td>
+          <td class="muted">Small headings, table group titles.</td>
+        </tr><tr>
+          <td><code>body-lg</code></td>
+          <td>sans</td>
+          <td>18px / 30px</td>
+          <td>400</td>
+          <td class="muted">Lead paragraphs under a page or section title.</td>
+        </tr><tr>
+          <td><code>body</code></td>
+          <td>sans</td>
+          <td>16px / 26px</td>
+          <td>400</td>
+          <td class="muted">All running text.</td>
+        </tr><tr>
+          <td><code>body-strong</code></td>
+          <td>sans</td>
+          <td>16px / 26px</td>
+          <td>600</td>
+          <td class="muted">Emphasis inside body text.</td>
+        </tr><tr>
+          <td><code>small</code></td>
+          <td>sans</td>
+          <td>14px / 22px</td>
+          <td>500</td>
+          <td class="muted">Metadata, form help text, footer links.</td>
+        </tr><tr>
+          <td><code>caption</code></td>
+          <td>sans</td>
+          <td>13px / 18px</td>
+          <td>500</td>
+          <td class="muted">Photo captions, chart labels. Minimum text size.</td>
+        </tr><tr>
+          <td><code>eyebrow</code></td>
+          <td>sans</td>
+          <td>12px / 16px</td>
+          <td>700</td>
+          <td class="muted">Uppercase label above section titles, in ink-brand. Set text-transform uppercase in code.</td>
+        </tr><tr>
+          <td><code>button</code></td>
+          <td>sans</td>
+          <td>15px / 20px</td>
+          <td>700</td>
+          <td class="muted">Button and link-button labels.</td>
+        </tr></tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:16px">Font files: <a href="fonts/README.md">licence and usage</a> · <a href="fonts/Fraunces-Variable.ttf" download>Fraunces (.ttf)</a> · <a href="fonts/Manrope-Variable.ttf" download>Manrope (.ttf)</a></p>
+  </div>
+</section>
+
+<section id="icons">
+  <div class="wrap">
+    <p class="eyebrow">Iconography</p>
+    <h2>24 line icons</h2>
+    <p class="lead">Drawn on a 24 px grid with a 1.75 stroke and round joins. Use forest green on light grounds and ivory on forest green. Always pair an icon with a text label.</p>
+    <h3 class="subhead">Crops</h3>
+    <div class="icon-grid">
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/cocoa.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/cocoa-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>cocoa</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/cocoa.svg" download>SVG<span>384 B</span></a>
+        <a class="chip" href="icons/png/cocoa-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/cocoa-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/cashew.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/cashew-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>cashew</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/cashew.svg" download>SVG<span>341 B</span></a>
+        <a class="chip" href="icons/png/cashew-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/cashew-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/palm-oil.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/palm-oil-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>palm oil</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/palm-oil.svg" download>SVG<span>301 B</span></a>
+        <a class="chip" href="icons/png/palm-oil-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/palm-oil-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/cassava.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/cassava-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>cassava</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/cassava.svg" download>SVG<span>392 B</span></a>
+        <a class="chip" href="icons/png/cassava-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/cassava-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/yam.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/yam-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>yam</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/yam.svg" download>SVG<span>380 B</span></a>
+        <a class="chip" href="icons/png/yam-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/yam-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/banana.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/banana-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>banana</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/banana.svg" download>SVG<span>382 B</span></a>
+        <a class="chip" href="icons/png/banana-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/banana-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/pineapple.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/pineapple-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>pineapple</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/pineapple.svg" download>SVG<span>335 B</span></a>
+        <a class="chip" href="icons/png/pineapple-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/pineapple-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/maize.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/maize-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>maize</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/maize.svg" download>SVG<span>428 B</span></a>
+        <a class="chip" href="icons/png/maize-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/maize-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/potato.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/potato-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>potato</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/potato.svg" download>SVG<span>325 B</span></a>
+        <a class="chip" href="icons/png/potato-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/potato-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/dairy.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/dairy-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>dairy</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/dairy.svg" download>SVG<span>326 B</span></a>
+        <a class="chip" href="icons/png/dairy-96.png" download>PNG 96<span>1 KB</span></a>
+        <a class="chip" href="icons/png/dairy-ivory-96.png" download>Ivory PNG<span>1 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/vegetables.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/vegetables-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>vegetables</h3>
+      <p class="muted small">Crop</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/vegetables.svg" download>SVG<span>293 B</span></a>
+        <a class="chip" href="icons/png/vegetables-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/vegetables-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article></div>
+    <h3 class="subhead">Activities</h3>
+    <div class="icon-grid">
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/seedling.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/seedling-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>seedling</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/seedling.svg" download>SVG<span>364 B</span></a>
+        <a class="chip" href="icons/png/seedling-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/seedling-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/nursery.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/nursery-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>nursery</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/nursery.svg" download>SVG<span>355 B</span></a>
+        <a class="chip" href="icons/png/nursery-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/nursery-ivory-96.png" download>Ivory PNG<span>1 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/smart-farming.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/smart-farming-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>smart farming</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/smart-farming.svg" download>SVG<span>423 B</span></a>
+        <a class="chip" href="icons/png/smart-farming-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/smart-farming-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/irrigation.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/irrigation-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>irrigation</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/irrigation.svg" download>SVG<span>354 B</span></a>
+        <a class="chip" href="icons/png/irrigation-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/irrigation-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/organic.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/organic-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>organic</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/organic.svg" download>SVG<span>272 B</span></a>
+        <a class="chip" href="icons/png/organic-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/organic-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/processing.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/processing-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>processing</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/processing.svg" download>SVG<span>296 B</span></a>
+        <a class="chip" href="icons/png/processing-96.png" download>PNG 96<span>1 KB</span></a>
+        <a class="chip" href="icons/png/processing-ivory-96.png" download>Ivory PNG<span>1 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/quality.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/quality-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>quality</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/quality.svg" download>SVG<span>283 B</span></a>
+        <a class="chip" href="icons/png/quality-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/quality-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/traceability.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/traceability-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>traceability</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/traceability.svg" download>SVG<span>302 B</span></a>
+        <a class="chip" href="icons/png/traceability-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/traceability-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/export.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/export-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>export</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/export.svg" download>SVG<span>347 B</span></a>
+        <a class="chip" href="icons/png/export-96.png" download>PNG 96<span>3 KB</span></a>
+        <a class="chip" href="icons/png/export-ivory-96.png" download>Ivory PNG<span>3 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/shipping.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/shipping-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>shipping</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/shipping.svg" download>SVG<span>287 B</span></a>
+        <a class="chip" href="icons/png/shipping-96.png" download>PNG 96<span>1 KB</span></a>
+        <a class="chip" href="icons/png/shipping-ivory-96.png" download>Ivory PNG<span>1 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/logistics.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/logistics-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>logistics</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/logistics.svg" download>SVG<span>351 B</span></a>
+        <a class="chip" href="icons/png/logistics-96.png" download>PNG 96<span>1 KB</span></a>
+        <a class="chip" href="icons/png/logistics-ivory-96.png" download>Ivory PNG<span>1 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/farmer-network.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/farmer-network-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>farmer network</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/farmer-network.svg" download>SVG<span>368 B</span></a>
+        <a class="chip" href="icons/png/farmer-network-96.png" download>PNG 96<span>2 KB</span></a>
+        <a class="chip" href="icons/png/farmer-network-ivory-96.png" download>Ivory PNG<span>2 KB</span></a>
+      </div>
+    </article>
+    <article class="icon-card">
+      <div class="icon-tiles">
+        <div class="tile"><img src="icons/svg/training.svg" alt="" width="48" height="48"></div>
+        <div class="tile tile-green"><img src="icons/svg/training-ivory.svg" alt="" width="48" height="48"></div>
+      </div>
+      <h3>training</h3>
+      <p class="muted small">Activity</p>
+      <div class="chips">
+        <a class="chip" href="icons/svg/training.svg" download>SVG<span>304 B</span></a>
+        <a class="chip" href="icons/png/training-96.png" download>PNG 96<span>1 KB</span></a>
+        <a class="chip" href="icons/png/training-ivory-96.png" download>Ivory PNG<span>1 KB</span></a>
+      </div>
+    </article></div>
+    <p class="small muted" style="margin-top:24px">All icons together: <a href="icons/sprite.svg" download>icons/sprite.svg</a> (SVG sprite for websites).</p>
+  </div>
+</section>
+
+<section id="social" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Social and marketing</p>
+    <h2>Share images and banners</h2>
+    <p class="lead">Share images carry the tagline in both languages. Every public page exists in English and French, so use the matching share image.</p>
+    <div class="grid"><article class="card">
+        <div class="preview preview-wide"><img src="social/avatar-400.png" alt="Social media profile picture" loading="lazy"></div>
+        <div class="card-body"><h3>Social media profile picture</h3><p class="muted small">400 × 400 px</p>
+        <div class="chips"><a class="chip" href="social/avatar-400.png" download>Download PNG<span>9 KB</span></a></div></div></article><article class="card">
+        <div class="preview preview-wide"><img src="social/linkedin-banner-1584x396.png" alt="LinkedIn company banner" loading="lazy"></div>
+        <div class="card-body"><h3>LinkedIn company banner</h3><p class="muted small">1584 × 396 px</p>
+        <div class="chips"><a class="chip" href="social/linkedin-banner-1584x396.png" download>Download PNG<span>34 KB</span></a></div></div></article><article class="card">
+        <div class="preview preview-wide"><img src="social/og-image-en-1200x630.png" alt="Open Graph share image" loading="lazy"></div>
+        <div class="card-body"><h3>Open Graph share image</h3><p class="muted small">1200 × 630 px</p>
+        <div class="chips"><a class="chip" href="social/og-image-en-1200x630.png" download>Download PNG<span>50 KB</span></a></div></div></article><article class="card">
+        <div class="preview preview-wide"><img src="social/og-image-fr-1200x630.png" alt="Open Graph share image" loading="lazy"></div>
+        <div class="card-body"><h3>Open Graph share image</h3><p class="muted small">1200 × 630 px</p>
+        <div class="chips"><a class="chip" href="social/og-image-fr-1200x630.png" download>Download PNG<span>43 KB</span></a></div></div></article></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="muted" style="margin:0 0 8px">AAAN · From African Soil to Global Tables · Du sol africain aux tables du monde.</p>
+    <p class="small" style="margin:0 0 8px">210 files, generated 2026-11-12 from the AAAN Brand Kit v1 by <code>brand/scripts/generate-brand-assets.mjs</code>.</p>
+    <p class="small" style="margin:0"><a href="AAAN-brand-assets.zip" download>Download the full kit (ZIP)</a></p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-copy]').forEach(function (btn) {
+    var label = btn.textContent;
+    btn.addEventListener('click', function () {
+      try {
+        navigator.clipboard.writeText(btn.getAttribute('data-copy')).then(function () {
+          btn.textContent = 'Copied';
+          setTimeout(function () { btn.textContent = label; }, 1400);
+        }, function () { btn.textContent = 'Copy failed'; });
+      } catch (e) {
+        btn.textContent = 'Copy failed';
+      }
+    });
+  });
+</script>
+</body>
+</html>

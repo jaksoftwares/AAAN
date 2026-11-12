@@ -1,0 +1,458 @@
+[
+  {
+    "source": "assets\\media\\a-fresh-oil-palm-fruit-bunch-with-glossy-red-orang.png",
+    "publicPath": "/media/a-fresh-oil-palm-fruit-bunch-with-glossy-red-orang.png"
+  },
+  {
+    "source": "assets\\media\\a-hand-of-green-plantains-with-one-ripe-yellow-pla.png",
+    "publicPath": "/media/a-hand-of-green-plantains-with-one-ripe-yellow-pla.png"
+  },
+  {
+    "source": "assets\\media\\a-hand-of-ripe-yellow-bananas-centred-on-a-plain-i.png",
+    "publicPath": "/media/a-hand-of-ripe-yellow-bananas-centred-on-a-plain-i.png"
+  },
+  {
+    "source": "assets\\media\\a-kenyan-agronomist-in-a-dark-green-polo-shirt-exp.png",
+    "publicPath": "/media/a-kenyan-agronomist-in-a-dark-green-polo-shirt-exp.png"
+  },
+  {
+    "source": "assets\\media\\a-neat-arrangement-of-a-cabbage-carrots-pea-pods-r.png",
+    "publicPath": "/media/a-neat-arrangement-of-a-cabbage-carrots-pea-pods-r.png"
+  },
+  {
+    "source": "assets\\media\\a-plain-glass-bottle-of-fresh-milk-and-a-small-gla.png",
+    "publicPath": "/media/a-plain-glass-bottle-of-fresh-milk-and-a-small-gla.png"
+  },
+  {
+    "source": "assets\\media\\a-single-ripe-yellow-orange-cocoa-pod-cut-open-to.png",
+    "publicPath": "/media/a-single-ripe-yellow-orange-cocoa-pod-cut-open-to.png"
+  },
+  {
+    "source": "assets\\media\\a-small-group-of-fresh-clean-potatoes-one-cut-in-h.png",
+    "publicPath": "/media/a-small-group-of-fresh-clean-potatoes-one-cut-in-h.png"
+  },
+  {
+    "source": "assets\\media\\a-small-heap-of-whole-white-cashew-kernels-with-on.png",
+    "publicPath": "/media/a-small-heap-of-whole-white-cashew-kernels-with-on.png"
+  },
+  {
+    "source": "assets\\media\\adult-african-food-safety-technician-in-a-white-co.png",
+    "publicPath": "/media/adult-african-food-safety-technician-in-a-white-co.png"
+  },
+  {
+    "source": "assets\\media\\adult-dock-workers-loading-plain-jute-sacks-of-coc.png",
+    "publicPath": "/media/adult-dock-workers-loading-plain-jute-sacks-of-coc.png"
+  },
+  {
+    "source": "assets\\media\\adult-ghanaian-farmer-carrying-a-large-bunch-of-gr.png",
+    "publicPath": "/media/adult-ghanaian-farmer-carrying-a-large-bunch-of-gr.png"
+  },
+  {
+    "source": "assets\\media\\adult-ghanaian-farmers-collecting-raw-cashew-nuts.png",
+    "publicPath": "/media/adult-ghanaian-farmers-collecting-raw-cashew-nuts.png"
+  },
+  {
+    "source": "assets\\media\\adult-ghanaian-farmers-harvesting-large-white-yam.png",
+    "publicPath": "/media/adult-ghanaian-farmers-harvesting-large-white-yam.png"
+  },
+  {
+    "source": "assets\\media\\adult-ghanaian-women-in-aprons-and-hairnets-roasti.png",
+    "publicPath": "/media/adult-ghanaian-women-in-aprons-and-hairnets-roasti.png"
+  },
+  {
+    "source": "assets\\media\\adult-harvester-using-a-long-pole-sickle-to-cut-a.png",
+    "publicPath": "/media/adult-harvester-using-a-long-pole-sickle-to-cut-a.png"
+  },
+  {
+    "source": "assets\\media\\adult-ivorian-women-in-aprons-and-hairnets-steamin.png",
+    "publicPath": "/media/adult-ivorian-women-in-aprons-and-hairnets-steamin.png"
+  },
+  {
+    "source": "assets\\media\\adult-kenyan-farmer-carrying-a-large-bunch-of-gree.png",
+    "publicPath": "/media/adult-kenyan-farmer-carrying-a-large-bunch-of-gree.png"
+  },
+  {
+    "source": "assets\\media\\adult-kenyan-farmers-harvesting-potatoes-in-a-high.png",
+    "publicPath": "/media/adult-kenyan-farmers-harvesting-potatoes-in-a-high.png"
+  },
+  {
+    "source": "assets\\media\\adult-quality-officer-cutting-raw-cashew-nut-sampl.png",
+    "publicPath": "/media/adult-quality-officer-cutting-raw-cashew-nut-sampl.png"
+  },
+  {
+    "source": "assets\\media\\adult-workers-grading-wrapping-and-packing-yam-tub.png",
+    "publicPath": "/media/adult-workers-grading-wrapping-and-packing-yam-tub.png"
+  },
+  {
+    "source": "assets\\media\\adult-workers-harvesting-ripe-golden-pineapples-in.png",
+    "publicPath": "/media/adult-workers-harvesting-ripe-golden-pineapples-in.png"
+  },
+  {
+    "source": "assets\\media\\adult-workers-in-white-coats-and-hairnets-grading.png",
+    "publicPath": "/media/adult-workers-in-white-coats-and-hairnets-grading.png"
+  },
+  {
+    "source": "assets\\media\\adult-workers-washing-hands-of-green-bananas-in-lo.png",
+    "publicPath": "/media/adult-workers-washing-hands-of-green-bananas-in-lo.png"
+  },
+  {
+    "source": "assets\\media\\Agronomist Farmer Field Discussion.mp4",
+    "publicPath": "/media/agronomist-farmer-field-discussion.mp4"
+  },
+  {
+    "source": "assets\\media\\Banana Tissue Culture Lab.mp4",
+    "publicPath": "/media/banana-tissue-culture-lab.mp4"
+  },
+  {
+    "source": "assets\\media\\black-and-white-friesian-dairy-cows-grazing-on-lus.png",
+    "publicPath": "/media/black-and-white-friesian-dairy-cows-grazing-on-lus.png"
+  },
+  {
+    "source": "assets\\media\\blocks-of-pale-cocoa-butter-a-bowl-of-rich-brown-c.png",
+    "publicPath": "/media/blocks-of-pale-cocoa-butter-a-bowl-of-rich-brown-c.png"
+  },
+  {
+    "source": "assets\\media\\branch-of-a-cashew-tree-with-ripe-red-and-yellow-c.png",
+    "publicPath": "/media/branch-of-a-cashew-tree-with-ripe-red-and-yellow-c.png"
+  },
+  {
+    "source": "assets\\media\\business-meeting-in-a-bright-modern-nairobi-office.png",
+    "publicPath": "/media/business-meeting-in-a-bright-modern-nairobi-office.png"
+  },
+  {
+    "source": "assets\\media\\Cashew Kernel Packaging.mp4",
+    "publicPath": "/media/cashew-kernel-packaging.mp4"
+  },
+  {
+    "source": "assets\\media\\Cashew Kernel Processing.mp4",
+    "publicPath": "/media/cashew-kernel-processing.mp4"
+  },
+  {
+    "source": "assets\\media\\Cashew Kernel Sorting.mp4",
+    "publicPath": "/media/cashew-kernel-sorting.mp4"
+  },
+  {
+    "source": "assets\\media\\Cashew Nut Harvest.mp4",
+    "publicPath": "/media/cashew-nut-harvest.mp4"
+  },
+  {
+    "source": "assets\\media\\Cashew Orchard at Sunset.mp4",
+    "publicPath": "/media/cashew-orchard-at-sunset.mp4"
+  },
+  {
+    "source": "assets\\media\\cashew-processing-plant-in-côte-d-ivoire-adult-wom.png",
+    "publicPath": "/media/cashew-processing-plant-in-cote-d-ivoire-adult-wom.png"
+  },
+  {
+    "source": "assets\\media\\clean-modern-grain-warehouse-with-neatly-stacked-w.png",
+    "publicPath": "/media/clean-modern-grain-warehouse-with-neatly-stacked-w.png"
+  },
+  {
+    "source": "assets\\media\\close-up-of-an-adult-african-farmer-s-hands-gently.png",
+    "publicPath": "/media/close-up-of-an-adult-african-farmer-s-hands-gently.png"
+  },
+  {
+    "source": "assets\\media\\close-up-of-an-adult-ghanaian-cocoa-farmer-s-hands.png",
+    "publicPath": "/media/close-up-of-an-adult-ghanaian-cocoa-farmer-s-hands.png"
+  },
+  {
+    "source": "assets\\media\\close-up-of-an-adult-s-cupped-hands-holding-dried.png",
+    "publicPath": "/media/close-up-of-an-adult-s-cupped-hands-holding-dried.png"
+  },
+  {
+    "source": "assets\\media\\Cocoa Beans Drying.mp4",
+    "publicPath": "/media/cocoa-beans-drying.mp4"
+  },
+  {
+    "source": "assets\\media\\Cocoa Beans in Sunlight.mp4",
+    "publicPath": "/media/cocoa-beans-in-sunlight.mp4"
+  },
+  {
+    "source": "assets\\media\\Cocoa Farm Field Walk.mp4",
+    "publicPath": "/media/cocoa-farm-field-walk.mp4"
+  },
+  {
+    "source": "assets\\media\\Cocoa Pod Close-Up.mp4",
+    "publicPath": "/media/cocoa-pod-close-up.mp4"
+  },
+  {
+    "source": "assets\\media\\Cocoa Pod Harvest.mp4",
+    "publicPath": "/media/cocoa-pod-harvest.mp4"
+  },
+  {
+    "source": "assets\\media\\Cocoa Seedling Nursery -2.mp4",
+    "publicPath": "/media/cocoa-seedling-nursery-2.mp4"
+  },
+  {
+    "source": "assets\\media\\Cocoa Seedling Nursery.mp4",
+    "publicPath": "/media/cocoa-seedling-nursery.mp4"
+  },
+  {
+    "source": "assets\\media\\cocoa-beans-fermenting-in-a-heap-partly-covered-by.png",
+    "publicPath": "/media/cocoa-beans-fermenting-in-a-heap-partly-covered-by.png"
+  },
+  {
+    "source": "assets\\media\\Container at Golden Hour.mp4",
+    "publicPath": "/media/container-at-golden-hour.mp4"
+  },
+  {
+    "source": "assets\\media\\container-terminal-at-the-port-of-abidjan-with-a-c.png",
+    "publicPath": "/media/container-terminal-at-the-port-of-abidjan-with-a-c.png"
+  },
+  {
+    "source": "assets\\media\\early-morning-at-a-rural-milk-collection-centre-in.png",
+    "publicPath": "/media/early-morning-at-a-rural-milk-collection-centre-in.png"
+  },
+  {
+    "source": "assets\\media\\export-banana-plantation-in-southern-côte-d-ivoire.png",
+    "publicPath": "/media/export-banana-plantation-in-southern-cote-d-ivoire.png"
+  },
+  {
+    "source": "assets\\media\\Farmer at Sunset.mp4",
+    "publicPath": "/media/farmer-at-sunset.mp4"
+  },
+  {
+    "source": "assets\\media\\Farmer Planting Seedling..mp4",
+    "publicPath": "/media/farmer-planting-seedling.mp4"
+  },
+  {
+    "source": "assets\\media\\fresh-ripe-pineapple-cut-in-half-next-to-a-glass-o.png",
+    "publicPath": "/media/fresh-ripe-pineapple-cut-in-half-next-to-a-glass-o.png"
+  },
+  {
+    "source": "assets\\media\\ghanaian-extension-officer-in-a-dark-green-polo-sh.png",
+    "publicPath": "/media/ghanaian-extension-officer-in-a-dark-green-polo-sh.png"
+  },
+  {
+    "source": "assets\\media\\ghanaian-field-officer-in-a-dark-green-polo-shirt.png",
+    "publicPath": "/media/ghanaian-field-officer-in-a-dark-green-polo-shirt.png"
+  },
+  {
+    "source": "assets\\media\\group-of-adult-ivorian-farmers-learning-yam-stakin (1).png",
+    "publicPath": "/media/group-of-adult-ivorian-farmers-learning-yam-stakin-1.png"
+  },
+  {
+    "source": "assets\\media\\group-of-adult-ivorian-farmers-learning-yam-stakin.png",
+    "publicPath": "/media/group-of-adult-ivorian-farmers-learning-yam-stakin.png"
+  },
+  {
+    "source": "assets\\media\\Highland Fields at Sunrise – 12 Nov 2026, 11.54 am.mp4",
+    "publicPath": "/media/highland-fields-at-sunrise-12-nov-2026-11-54-am.mp4"
+  },
+  {
+    "source": "assets\\media\\inside-a-large-shade-net-seedling-nursery-in-kenya.png",
+    "publicPath": "/media/inside-a-large-shade-net-seedling-nursery-in-kenya.png"
+  },
+  {
+    "source": "assets\\media\\ivorian-cocoa-cooperative-members-all-adults-weigh.png",
+    "publicPath": "/media/ivorian-cocoa-cooperative-members-all-adults-weigh.png"
+  },
+  {
+    "source": "assets\\media\\Kenya Highland Sunrise (1).mp4",
+    "publicPath": "/media/kenya-highland-sunrise-1.mp4"
+  },
+  {
+    "source": "assets\\media\\Kenya Highland Sunrise – 12 Nov 2026, 11.40 am.mp4",
+    "publicPath": "/media/kenya-highland-sunrise-12-nov-2026-11-40-am.mp4"
+  },
+  {
+    "source": "assets\\media\\Kenya Highland Sunrise.mp4",
+    "publicPath": "/media/kenya-highland-sunrise.mp4"
+  },
+  {
+    "source": "assets\\media\\large-cocoa-seedling-nursery-in-ghana-thousands-of.png",
+    "publicPath": "/media/large-cocoa-seedling-nursery-in-ghana-thousands-of.png"
+  },
+  {
+    "source": "assets\\media\\long-rows-of-raised-bamboo-drying-tables-covered-i.png",
+    "publicPath": "/media/long-rows-of-raised-bamboo-drying-tables-covered-i.png"
+  },
+  {
+    "source": "assets\\media\\macro-photograph-of-whole-creamy-white-premium-cas.png",
+    "publicPath": "/media/macro-photograph-of-whole-creamy-white-premium-cas.png"
+  },
+  {
+    "source": "assets\\media\\Modern Lab Sample Testing .mp4",
+    "publicPath": "/media/modern-lab-sample-testing.mp4"
+  },
+  {
+    "source": "assets\\media\\modern-cocoa-processing-line-with-stainless-steel.png",
+    "publicPath": "/media/modern-cocoa-processing-line-with-stainless-steel.png"
+  },
+  {
+    "source": "assets\\media\\Nairobi Skyline at Dusk.mp4",
+    "publicPath": "/media/nairobi-skyline-at-dusk.mp4"
+  },
+  {
+    "source": "assets\\media\\Nyandarua Highland Farms.mp4",
+    "publicPath": "/media/nyandarua-highland-farms.mp4"
+  },
+  {
+    "source": "assets\\media\\one-whole-ripe-golden-pineapple-with-green-crown-s.png",
+    "publicPath": "/media/one-whole-ripe-golden-pineapple-with-green-crown-s.png"
+  },
+  {
+    "source": "assets\\media\\overhead-flat-lay-of-african-produce-arranged-on-a.png",
+    "publicPath": "/media/overhead-flat-lay-of-african-produce-arranged-on-a.png"
+  },
+  {
+    "source": "assets\\media\\pallets-of-fresh-produce-wrapped-in-plastic-being.png",
+    "publicPath": "/media/pallets-of-fresh-produce-wrapped-in-plastic-being.png"
+  },
+  {
+    "source": "assets\\media\\placeholder-bright-modern-office-reception-in-accr.png",
+    "publicPath": "/media/placeholder-bright-modern-office-reception-in-accr.png"
+  },
+  {
+    "source": "assets\\media\\placeholder-group-of-ten-adult-ghanaian-profession.png",
+    "publicPath": "/media/placeholder-group-of-ten-adult-ghanaian-profession.png"
+  },
+  {
+    "source": "assets\\media\\placeholder-modern-three-storey-office-building-in.png",
+    "publicPath": "/media/placeholder-modern-three-storey-office-building-in.png"
+  },
+  {
+    "source": "assets\\media\\placeholder-portrait-of-a-confident-young-african.png",
+    "publicPath": "/media/placeholder-portrait-of-a-confident-young-african.png"
+  },
+  {
+    "source": "assets\\media\\placeholder-three-adult-ivorian-professionals-two.png",
+    "publicPath": "/media/placeholder-three-adult-ivorian-professionals-two.png"
+  },
+  {
+    "source": "assets\\media\\placeholder-unbranded-bottles-of-fresh-milk-a-pot.png",
+    "publicPath": "/media/placeholder-unbranded-bottles-of-fresh-milk-a-pot.png"
+  },
+  {
+    "source": "assets\\media\\portrait-of-a-confident-kenyan-woman-farmer-in-her.png",
+    "publicPath": "/media/portrait-of-a-confident-kenyan-woman-farmer-in-her.png"
+  },
+  {
+    "source": "assets\\media\\real-photo-only-layout-placeholder-plain-warm-ivor.png",
+    "publicPath": "/media/real-photo-only-layout-placeholder-plain-warm-ivor.png"
+  },
+  {
+    "source": "assets\\media\\refrigerated-shipping-containers-at-tema-port-ghan.png",
+    "publicPath": "/media/refrigerated-shipping-containers-at-tema-port-ghan.png"
+  },
+  {
+    "source": "assets\\media\\rich-red-orange-palm-oil-flowing-into-a-stainless.png",
+    "publicPath": "/media/rich-red-orange-palm-oil-flowing-into-a-stainless.png"
+  },
+  {
+    "source": "assets\\media\\rows-of-pineapple-plants-with-ripening-fruit-in-bo.png",
+    "publicPath": "/media/rows-of-pineapple-plants-with-ripening-fruit-in-bo.png"
+  },
+  {
+    "source": "assets\\media\\rows-of-young-tissue-culture-banana-plantlets-in-s.png",
+    "publicPath": "/media/rows-of-young-tissue-culture-banana-plantlets-in-s.png"
+  },
+  {
+    "source": "assets\\media\\Seed Potato Storage Barn.mp4",
+    "publicPath": "/media/seed-potato-storage-barn.mp4"
+  },
+  {
+    "source": "assets\\media\\seed-potatoes-stored-in-stacked-wooden-crates-in-a.png",
+    "publicPath": "/media/seed-potatoes-stored-in-stacked-wooden-crates-in-a.png"
+  },
+  {
+    "source": "assets\\media\\Seedling Nursery at Dawn.mp4",
+    "publicPath": "/media/seedling-nursery-at-dawn.mp4"
+  },
+  {
+    "source": "assets\\media\\Seedlings in Soft Light.mp4",
+    "publicPath": "/media/seedlings-in-soft-light.mp4"
+  },
+  {
+    "source": "assets\\media\\Shade-Net Nursery Tracking Shot.mp4",
+    "publicPath": "/media/shade-net-nursery-tracking-shot.mp4"
+  },
+  {
+    "source": "assets\\media\\shipping-containers-being-loaded-onto-a-large-carg.png",
+    "publicPath": "/media/shipping-containers-being-loaded-onto-a-large-carg.png"
+  },
+  {
+    "source": "assets\\media\\skyline-of-the-plateau-business-district-of-abidja.png",
+    "publicPath": "/media/skyline-of-the-plateau-business-district-of-abidja.png"
+  },
+  {
+    "source": "assets\\media\\tall-maize-field-at-golden-hour-in-kitale-kenya-ba.png",
+    "publicPath": "/media/tall-maize-field-at-golden-hour-in-kitale-kenya-ba.png"
+  },
+  {
+    "source": "assets\\media\\three-fresh-cassava-roots-one-cut-to-show-white-fl.png",
+    "publicPath": "/media/three-fresh-cassava-roots-one-cut-to-show-white-fl.png"
+  },
+  {
+    "source": "assets\\media\\Thriving Green Field.mp4",
+    "publicPath": "/media/thriving-green-field.mp4"
+  },
+  {
+    "source": "assets\\media\\top-down-drone-photograph-of-neat-rows-of-cabbages.png",
+    "publicPath": "/media/top-down-drone-photograph-of-neat-rows-of-cabbages.png"
+  },
+  {
+    "source": "assets\\media\\two-adult-african-hands-cupping-rich-dark-soil-wit.png",
+    "publicPath": "/media/two-adult-african-hands-cupping-rich-dark-soil-wit.png"
+  },
+  {
+    "source": "assets\\media\\two-large-whole-white-yam-tubers-and-one-slice-sho.png",
+    "publicPath": "/media/two-large-whole-white-yam-tubers-and-one-slice-sho.png"
+  },
+  {
+    "source": "assets\\media\\two-maize-cobs-one-with-husk-peeled-back-to-show-y.png",
+    "publicPath": "/media/two-maize-cobs-one-with-husk-peeled-back-to-show-y.png"
+  },
+  {
+    "source": "assets\\media\\vast-pineapple-fields-stretching-to-the-horizon-in.png",
+    "publicPath": "/media/vast-pineapple-fields-stretching-to-the-horizon-in.png"
+  },
+  {
+    "source": "assets\\media\\warm-family-table-in-a-west-african-home-with-bowl.png",
+    "publicPath": "/media/warm-family-table-in-a-west-african-home-with-bowl.png"
+  },
+  {
+    "source": "assets\\media\\wide-aerial-view-of-green-highland-farmland-in-nya.png",
+    "publicPath": "/media/wide-aerial-view-of-green-highland-farmland-in-nya.png"
+  },
+  {
+    "source": "assets\\media\\young-adult-kenyan-farmer-standing-in-his-vegetabl.png",
+    "publicPath": "/media/young-adult-kenyan-farmer-standing-in-his-vegetabl.png"
+  },
+  {
+    "source": "assets\\directors\\Aaron1.jpeg",
+    "publicPath": "/media/aaron1.jpg"
+  },
+  {
+    "source": "assets\\directors\\Aaron2.jpeg",
+    "publicPath": "/media/aaron2.jpg"
+  },
+  {
+    "source": "assets\\directors\\Esi Mensah-Boateng.png",
+    "publicPath": "/media/esi-mensah-boateng.png"
+  },
+  {
+    "source": "assets\\directors\\Grace.png",
+    "publicPath": "/media/grace.png"
+  },
+  {
+    "source": "assets\\directors\\joseph-kariuki.png",
+    "publicPath": "/media/joseph-kariuki.png"
+  },
+  {
+    "source": "assets\\directors\\Kingsley.jpeg",
+    "publicPath": "/media/kingsley.jpg"
+  },
+  {
+    "source": "assets\\directors\\Kingsley2.jpeg",
+    "publicPath": "/media/kingsley2.jpg"
+  },
+  {
+    "source": "assets\\directors\\KoffiYaoKouassi.png",
+    "publicPath": "/media/koffiyaokouassi.png"
+  },
+  {
+    "source": "assets\\directors\\Margaret-Paula.jpeg",
+    "publicPath": "/media/margaret-paula.jpg"
+  }
+]

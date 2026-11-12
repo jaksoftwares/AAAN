@@ -1,0 +1,140 @@
+[
+  {
+    "name": "brand-forest-green",
+    "light": "#0E4D2C",
+    "dark": "#0E4D2C",
+    "usage": "Primary brand colour. Logo disc, primary buttons, hero bands, footer. Pair with on-brand text."
+  },
+  {
+    "name": "brand-forest-green-hover",
+    "light": "#0A3B21",
+    "dark": "#1B6B3F",
+    "usage": "Hover and pressed state of brand-forest-green fills. on-brand text still passes (5.9:1 or more)."
+  },
+  {
+    "name": "brand-harvest-gold",
+    "light": "#E2A529",
+    "dark": "#E2A529",
+    "usage": "Accent fill: key numbers, highlights, the logo's furrow arcs and leaf, secondary call-to-action fills with on-gold text. Never text on light surfaces (2.2:1)."
+  },
+  {
+    "name": "brand-cocoa-brown",
+    "light": "#5B3A24",
+    "dark": "#5B3A24",
+    "usage": "Secondary brand colour for export, product and premium sections and the logo descriptor line. Text on surface-ivory passes at 9.2:1."
+  },
+  {
+    "name": "brand-leaf-green",
+    "light": "#7DB33F",
+    "dark": "#9CCB63",
+    "usage": "Supporting fill for sustainability content, the logo's right leaf, chart series and illustration. Decorative only on light surfaces (2.5:1 on white); never text there."
+  },
+  {
+    "name": "brand-savanna-ivory",
+    "light": "#F8F4EA",
+    "dark": "#F8F4EA",
+    "usage": "Brand ivory: the warm off-white of print, section backgrounds and reversed logo marks."
+  },
+  {
+    "name": "brand-charcoal",
+    "light": "#1F2622",
+    "dark": "#1F2622",
+    "usage": "Brand near-black for print body text and dark photography overlays."
+  },
+  {
+    "name": "surface",
+    "light": "#FFFFFF",
+    "dark": "#0F1A14",
+    "usage": "Default page background."
+  },
+  {
+    "name": "surface-ivory",
+    "light": "#F8F4EA",
+    "dark": "#16261D",
+    "usage": "Alternate section background and cards on surface. The brand's signature warm ground."
+  },
+  {
+    "name": "surface-sand",
+    "light": "#EFE8D8",
+    "dark": "#1E3127",
+    "usage": "Raised or nested panels, table headers, stat strips on surface-ivory."
+  },
+  {
+    "name": "surface-brand",
+    "light": "#0E4D2C",
+    "dark": "#0E4D2C",
+    "usage": "Hero bands, footer and full-bleed statement sections. Text on it is on-brand."
+  },
+  {
+    "name": "ink",
+    "light": "#1F2622",
+    "dark": "#F3EFE4",
+    "usage": "Body and heading text on surface, surface-ivory and surface-sand (12.6:1 or more in both themes)."
+  },
+  {
+    "name": "ink-muted",
+    "light": "#56605A",
+    "dark": "#B5BDB7",
+    "usage": "Secondary text, captions and metadata on surface, surface-ivory and surface-sand (5.3:1 or more light, 8.2:1 or more dark)."
+  },
+  {
+    "name": "ink-brand",
+    "light": "#0E4D2C",
+    "dark": "#9CCB63",
+    "usage": "Links, eyebrow labels and accent headings on surface and surface-ivory (9.0:1 or more light, 8.4:1 or more dark)."
+  },
+  {
+    "name": "ink-gold",
+    "light": "#8A5A12",
+    "dark": "#E2A529",
+    "usage": "Gold-toned text on surface (5.9:1 light) and dark surfaces (7.3:1 or more). Use it where the design wants gold words; never brand-harvest-gold on light."
+  },
+  {
+    "name": "on-brand",
+    "light": "#F8F4EA",
+    "dark": "#F8F4EA",
+    "usage": "Text and icons on surface-brand and brand-forest-green fills (9.0:1)."
+  },
+  {
+    "name": "on-gold",
+    "light": "#1F2622",
+    "dark": "#1F2622",
+    "usage": "Text and icons on brand-harvest-gold fills (7.1:1)."
+  },
+  {
+    "name": "line",
+    "light": "#DDD6C6",
+    "dark": "#2C3D33",
+    "usage": "Hairline dividers and card outlines that carry no meaning."
+  },
+  {
+    "name": "line-strong",
+    "light": "#5B7A66",
+    "dark": "#8C9A90",
+    "usage": "Form-control borders and meaningful outlines (4.7:1 light, 6.1:1 dark)."
+  },
+  {
+    "name": "focus-ring",
+    "light": "#0E4D2C",
+    "dark": "#E2A529",
+    "usage": "2px solid focus ring, offset 2px, on every interactive element (9.9:1 light, 7.3:1 or more dark)."
+  },
+  {
+    "name": "status-success",
+    "light": "#1F7A3A",
+    "dark": "#7FD39A",
+    "usage": "Success text and icons on surface. Always paired with a word or a check icon."
+  },
+  {
+    "name": "status-warning",
+    "light": "#9A5B00",
+    "dark": "#F2B84B",
+    "usage": "Warning text and icons on surface. Always paired with a word or an icon."
+  },
+  {
+    "name": "status-danger",
+    "light": "#B3261E",
+    "dark": "#FF8A80",
+    "usage": "Error text and icons on surface. Always paired with a word or an icon; differs from status-success in lightness, not hue alone."
+  }
+]

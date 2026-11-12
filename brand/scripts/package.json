@@ -1,0 +1,17 @@
+{
+  "name": "aaan-brand-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates AAAN logo variations, icons, app icons, social assets, colour tokens and the brand showcase page.",
+  "type": "module",
+  "scripts": {
+    "build": "node generate-brand-assets.mjs",
+    "check": "node generate-brand-assets.mjs --check"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=22.2"
+  }
+}
