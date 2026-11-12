@@ -130,7 +130,7 @@ export function PersonCard({ person }: { person: Person }) {
   return (
     <article className="flex flex-col overflow-hidden rounded-lg border border-line bg-surface">
       {person.photo ? (
-        <Photo src={person.photo} alt={person.photoAlt} className="aspect-[4/5]" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" fit="cover" />
+        <Photo src={person.photo} alt={person.photoAlt} className="aspect-[4/5]" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" fit="cover" focus="top" />
       ) : (
         <div role="img" aria-label={person.photoAlt} className="flex aspect-[4/5] items-center justify-center bg-forest font-display text-[48px] font-semibold text-ivory">
           {initials}

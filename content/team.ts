@@ -27,7 +27,7 @@ export const team: Person[] = [
     office: "Nairobi, Kenya",
     qualification: "BSc Agricultural Science",
     bio: "Aaron leads AAAN's agronomy, nurseries and farm operations across all three countries. He built the seedling and farmer-training model that AAAN started with in Nyandarua, and he oversees the company's growth into new crops and regions.",
-    photo: "/media/aaron1.jpg",
+    photo: "/media/aaron-v2.jpg",
     photoAlt: "Portrait of Aaron Appiagyei",
   },
   {
@@ -49,7 +49,7 @@ export const team: Person[] = [
     office: "Nairobi, Kenya",
     qualification: "BSc Food and Nutrition",
     bio: "Margaret leads AAAN's processing facilities, quality assurance and laboratory testing. She makes sure every product meets the food-safety standards of the markets AAAN serves.",
-    photo: "/media/margaret-paula.jpg",
+    photo: "/media/margaret-v2.jpg",
     photoAlt: "Portrait of Margaret Paula",
   },
   {
@@ -115,7 +115,7 @@ export const team: Person[] = [
   office: "Bouaké, Côte d'Ivoire",
   qualification: "BSc Business Management",
   bio: "Adjoumani leads AAAN's processing plants in Côte d'Ivoire, where cocoa and cashew become products ready for export. She oversees production, food safety and the plants' teams.",
-  photo: "/media/camara.png",
+  photo: "/media/camara-v2.png",
   photoAlt: "Portrait of Adjoumani Camara",
 },
 ];

@@ -10,6 +10,7 @@ export function Photo({
   priority = false,
   className = "",
   fit = "cover",
+  focus = "center",
 }: {
   src?: string;
   alt: string;
@@ -17,6 +18,8 @@ export function Photo({
   priority?: boolean;
   className?: string;
   fit?: "cover" | "contain";
+  // Where a cropped image keeps its subject: portraits use "top" so faces are not cut off.
+  focus?: "center" | "top";
 }) {
   if (!src) {
     return (
@@ -34,7 +37,7 @@ export function Photo({
         fill
         sizes={sizes}
         priority={priority}
-        className={fit === "cover" ? "object-cover" : "object-contain"}
+        className={`${fit === "cover" ? "object-cover" : "object-contain"} ${focus === "top" ? "object-top" : "object-center"}`}
       />
     </div>
   );

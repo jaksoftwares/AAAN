@@ -420,20 +420,20 @@
     "publicPath": "/media/young-adult-kenyan-farmer-standing-in-his-vegetabl.png"
   },
   {
-    "source": "assets\\directors\\Aaron1.jpeg",
-    "publicPath": "/media/aaron1.jpg"
+    "source": "assets\\directors\\aaron-v2.jpeg",
+    "publicPath": "/media/aaron-v2.jpg"
   },
   {
-    "source": "assets\\directors\\Aaron2.jpeg",
-    "publicPath": "/media/aaron2.jpg"
+    "source": "assets\\directors\\Aaron1.jpeg",
+    "publicPath": "/media/aaron1.jpg"
   },
   {
     "source": "assets\\directors\\Bruno Comoe.png",
     "publicPath": "/media/bruno-comoe.png"
   },
   {
-    "source": "assets\\directors\\camara.png",
-    "publicPath": "/media/camara.png"
+    "source": "assets\\directors\\camara-v2.png",
+    "publicPath": "/media/camara-v2.png"
   },
   {
     "source": "assets\\directors\\Esi Mensah-Boateng.png",
@@ -462,5 +462,9 @@
   {
     "source": "assets\\directors\\Margaret-Paula.jpeg",
     "publicPath": "/media/margaret-paula.jpg"
+  },
+  {
+    "source": "assets\\directors\\margaret-v2.jpeg",
+    "publicPath": "/media/margaret-v2.jpg"
   }
 ]
