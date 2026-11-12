@@ -33,7 +33,7 @@ export const team: Person[] = [
   {
     slug: "antwi-kingsley",
     name: "Antwi Kingsley",
-    role: "Head of ICT, across the group",
+    role: "Group Head of Information and Communication Technology (ICT)",
     group: "Board of Directors",
     office: "Nairobi, Kenya",
     qualification: "BSc Information Technology",
