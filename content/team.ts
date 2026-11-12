@@ -47,7 +47,7 @@ export const team: Person[] = [
     role: "Director of Corporate Communications and International Relations",
     group: "Board of Directors",
     office: "Nairobi, Kenya",
-    qualification: "BSc Food and Nutrition",
+    qualification: "BSc Communication and International Relations",
     bio: "Margaret leads AAAN's corporate communications and international relations, sharing the company's story with partners, buyers and the public across the markets AAAN serves.",
     photo: "/media/margaret-v2.jpg",
     photoAlt: "Portrait of Margaret Paula",
