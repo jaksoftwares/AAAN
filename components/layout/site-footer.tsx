@@ -68,7 +68,15 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col gap-4 border-t border-ivory/20 pt-8 text-[13px] text-ivory/80 md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} African Agricultural Advancement Network. All rights reserved.</p>
+          <div className="flex flex-col gap-1">
+            <p>© {new Date().getFullYear()} African Agricultural Advancement Network. All rights reserved.</p>
+            <p className="text-ivory/70">
+              Designed and developed by{" "}
+              <a href="https://dovepeakdigital.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-ivory">
+                Dovepeak Technologies
+              </a>
+            </p>
+          </div>
           <nav aria-label="Legal" className="flex flex-wrap gap-6">
             <Link href="/en/privacy" className="hover:text-ivory hover:underline">Privacy</Link>
             <Link href="/en/cookies" className="hover:text-ivory hover:underline">Cookies</Link>
