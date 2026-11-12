@@ -38,7 +38,7 @@ function copyDir(src, dest) {
 copyDir(SOURCE, TARGET);
 console.log(`[sync-brand] ${copied} brand files copied to public/brand/`);
 
-// Root-level files browsers and the press page request by fixed path.
+// Root-level files browsers request by fixed path.
 const ROOT_COPIES = [
   ["favicon/favicon.ico", "favicon.ico"],
   ["favicon/apple-touch-icon-180.png", "apple-touch-icon.png"],
@@ -49,8 +49,4 @@ for (const [from, to] of ROOT_COPIES) {
   const src = path.join(TARGET, from);
   if (fs.existsSync(src)) fs.copyFileSync(src, path.join(ROOT, "public", to));
 }
-const pressKit = path.join(SOURCE, "AAAN-brand-assets.zip");
-if (fs.existsSync(pressKit)) {
-  fs.mkdirSync(path.join(ROOT, "public", "downloads"), { recursive: true });
-  fs.copyFileSync(pressKit, path.join(ROOT, "public", "downloads", "press-kit.zip"));
-}
+// The brand asset ZIP is internal, so it is not copied into public/. Only the logos used by the site are.

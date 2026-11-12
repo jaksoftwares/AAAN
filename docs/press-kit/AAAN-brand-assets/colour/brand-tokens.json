@@ -1,0 +1,437 @@
+{
+ "name": "AAAN Brand Kit",
+ "version": 1,
+ "color": {
+  "themes": [
+   {
+    "id": "light",
+    "name": "Light"
+   },
+   {
+    "id": "dark",
+    "name": "Dark"
+   }
+  ],
+  "tokens": [
+   {
+    "name": "brand-forest-green",
+    "value": {
+     "light": "#0E4D2C",
+     "dark": "#0E4D2C"
+    },
+    "usage": "Primary brand colour. Logo disc, primary buttons, hero bands, footer. Pair with on-brand text."
+   },
+   {
+    "name": "brand-forest-green-hover",
+    "value": {
+     "light": "#0A3B21",
+     "dark": "#1B6B3F"
+    },
+    "usage": "Hover and pressed state of brand-forest-green fills. on-brand text still passes (5.9:1 or more)."
+   },
+   {
+    "name": "brand-harvest-gold",
+    "value": {
+     "light": "#E2A529",
+     "dark": "#E2A529"
+    },
+    "usage": "Accent fill: key numbers, highlights, the logo's furrow arcs and leaf, secondary call-to-action fills with on-gold text. Never text on light surfaces (2.2:1)."
+   },
+   {
+    "name": "brand-cocoa-brown",
+    "value": {
+     "light": "#5B3A24",
+     "dark": "#5B3A24"
+    },
+    "usage": "Secondary brand colour for export, product and premium sections and the logo descriptor line. Text on surface-ivory passes at 9.2:1."
+   },
+   {
+    "name": "brand-leaf-green",
+    "value": {
+     "light": "#7DB33F",
+     "dark": "#9CCB63"
+    },
+    "usage": "Supporting fill for sustainability content, the logo's right leaf, chart series and illustration. Decorative only on light surfaces (2.5:1 on white); never text there."
+   },
+   {
+    "name": "brand-savanna-ivory",
+    "value": {
+     "light": "#F8F4EA",
+     "dark": "#F8F4EA"
+    },
+    "usage": "Brand ivory: the warm off-white of print, section backgrounds and reversed logo marks."
+   },
+   {
+    "name": "brand-charcoal",
+    "value": {
+     "light": "#1F2622",
+     "dark": "#1F2622"
+    },
+    "usage": "Brand near-black for print body text and dark photography overlays."
+   },
+   {
+    "name": "surface",
+    "value": {
+     "light": "#FFFFFF",
+     "dark": "#0F1A14"
+    },
+    "usage": "Default page background."
+   },
+   {
+    "name": "surface-ivory",
+    "value": {
+     "light": "#F8F4EA",
+     "dark": "#16261D"
+    },
+    "usage": "Alternate section background and cards on surface. The brand's signature warm ground."
+   },
+   {
+    "name": "surface-sand",
+    "value": {
+     "light": "#EFE8D8",
+     "dark": "#1E3127"
+    },
+    "usage": "Raised or nested panels, table headers, stat strips on surface-ivory."
+   },
+   {
+    "name": "surface-brand",
+    "value": {
+     "light": "{brand-forest-green}",
+     "dark": "{brand-forest-green}"
+    },
+    "usage": "Hero bands, footer and full-bleed statement sections. Text on it is on-brand."
+   },
+   {
+    "name": "ink",
+    "value": {
+     "light": "#1F2622",
+     "dark": "#F3EFE4"
+    },
+    "usage": "Body and heading text on surface, surface-ivory and surface-sand (12.6:1 or more in both themes)."
+   },
+   {
+    "name": "ink-muted",
+    "value": {
+     "light": "#56605A",
+     "dark": "#B5BDB7"
+    },
+    "usage": "Secondary text, captions and metadata on surface, surface-ivory and surface-sand (5.3:1 or more light, 8.2:1 or more dark)."
+   },
+   {
+    "name": "ink-brand",
+    "value": {
+     "light": "#0E4D2C",
+     "dark": "#9CCB63"
+    },
+    "usage": "Links, eyebrow labels and accent headings on surface and surface-ivory (9.0:1 or more light, 8.4:1 or more dark)."
+   },
+   {
+    "name": "ink-gold",
+    "value": {
+     "light": "#8A5A12",
+     "dark": "#E2A529"
+    },
+    "usage": "Gold-toned text on surface (5.9:1 light) and dark surfaces (7.3:1 or more). Use it where the design wants gold words; never brand-harvest-gold on light."
+   },
+   {
+    "name": "on-brand",
+    "value": {
+     "light": "#F8F4EA",
+     "dark": "#F8F4EA"
+    },
+    "usage": "Text and icons on surface-brand and brand-forest-green fills (9.0:1)."
+   },
+   {
+    "name": "on-gold",
+    "value": {
+     "light": "#1F2622",
+     "dark": "#1F2622"
+    },
+    "usage": "Text and icons on brand-harvest-gold fills (7.1:1)."
+   },
+   {
+    "name": "line",
+    "value": {
+     "light": "#DDD6C6",
+     "dark": "#2C3D33"
+    },
+    "usage": "Hairline dividers and card outlines that carry no meaning."
+   },
+   {
+    "name": "line-strong",
+    "value": {
+     "light": "#5B7A66",
+     "dark": "#8C9A90"
+    },
+    "usage": "Form-control borders and meaningful outlines (4.7:1 light, 6.1:1 dark)."
+   },
+   {
+    "name": "focus-ring",
+    "value": {
+     "light": "#0E4D2C",
+     "dark": "#E2A529"
+    },
+    "usage": "2px solid focus ring, offset 2px, on every interactive element (9.9:1 light, 7.3:1 or more dark)."
+   },
+   {
+    "name": "status-success",
+    "value": {
+     "light": "#1F7A3A",
+     "dark": "#7FD39A"
+    },
+    "usage": "Success text and icons on surface. Always paired with a word or a check icon."
+   },
+   {
+    "name": "status-warning",
+    "value": {
+     "light": "#9A5B00",
+     "dark": "#F2B84B"
+    },
+    "usage": "Warning text and icons on surface. Always paired with a word or an icon."
+   },
+   {
+    "name": "status-danger",
+    "value": {
+     "light": "#B3261E",
+     "dark": "#FF8A80"
+    },
+    "usage": "Error text and icons on surface. Always paired with a word or an icon; differs from status-success in lightness, not hue alone."
+   }
+  ]
+ },
+ "type": {
+  "fonts": [],
+  "families": {
+   "display": "\"Fraunces\", Georgia, \"Times New Roman\", serif",
+   "sans": "\"Manrope\", \"Segoe UI\", system-ui, sans-serif"
+  },
+  "groups": [
+   {
+    "name": "Display",
+    "family": "display",
+    "styles": [
+     {
+      "name": "display-xl",
+      "fontSize": "64px",
+      "lineHeight": "68px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.01em",
+      "sample": "From African Soil to Global Tables",
+      "usage": "Home page hero headline only. One per page."
+     },
+     {
+      "name": "display-lg",
+      "fontSize": "48px",
+      "lineHeight": "54px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.01em",
+      "sample": "Advancing Africa's Harvest",
+      "usage": "Page heroes on inner pages."
+     },
+     {
+      "name": "stat-number",
+      "fontSize": "56px",
+      "lineHeight": "60px",
+      "fontWeight": 600,
+      "sample": "25,000+",
+      "usage": "Home page counters and key figures, in ink-brand or ink-gold."
+     },
+     {
+      "name": "heading-1",
+      "fontSize": "36px",
+      "lineHeight": "44px",
+      "fontWeight": 600,
+      "sample": "Seed to Shelf. Africa to the World.",
+      "usage": "Section titles."
+     },
+     {
+      "name": "heading-2",
+      "fontSize": "28px",
+      "lineHeight": "36px",
+      "fontWeight": 600,
+      "sample": "Our crops and products",
+      "usage": "Sub-section titles and card group titles."
+     }
+    ]
+   },
+   {
+    "name": "Text",
+    "family": "sans",
+    "styles": [
+     {
+      "name": "heading-3",
+      "fontSize": "22px",
+      "lineHeight": "30px",
+      "fontWeight": 700,
+      "sample": "Certified seedlings",
+      "usage": "Card titles, crop names."
+     },
+     {
+      "name": "heading-4",
+      "fontSize": "18px",
+      "lineHeight": "26px",
+      "fontWeight": 700,
+      "sample": "Kumasi, Ghana",
+      "usage": "Small headings, table group titles."
+     },
+     {
+      "name": "body-lg",
+      "fontSize": "18px",
+      "lineHeight": "30px",
+      "fontWeight": 400,
+      "sample": "AAAN advances African agriculture from seed to shelf.",
+      "usage": "Lead paragraphs under a page or section title."
+     },
+     {
+      "name": "body",
+      "fontSize": "16px",
+      "lineHeight": "26px",
+      "fontWeight": 400,
+      "sample": "Clean seed, trained farmers and a guaranteed buyer.",
+      "usage": "All running text."
+     },
+     {
+      "name": "body-strong",
+      "fontSize": "16px",
+      "lineHeight": "26px",
+      "fontWeight": 600,
+      "sample": "Guaranteed off-take for every network farmer.",
+      "usage": "Emphasis inside body text."
+     },
+     {
+      "name": "small",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "fontWeight": 500,
+      "sample": "Ol Kalou, Nyandarua County, Kenya",
+      "usage": "Metadata, form help text, footer links."
+     },
+     {
+      "name": "caption",
+      "fontSize": "13px",
+      "lineHeight": "18px",
+      "fontWeight": 500,
+      "sample": "Cocoa drying, Sefwi Wiawso",
+      "usage": "Photo captions, chart labels. Minimum text size."
+     },
+     {
+      "name": "eyebrow",
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "fontWeight": 700,
+      "letterSpacing": "0.14em",
+      "sample": "WHAT WE DO",
+      "usage": "Uppercase label above section titles, in ink-brand. Set text-transform uppercase in code."
+     },
+     {
+      "name": "button",
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "fontWeight": 700,
+      "letterSpacing": "0.01em",
+      "sample": "Source from AAAN",
+      "usage": "Button and link-button labels."
+     }
+    ]
+   }
+  ]
+ },
+ "spacing": {
+  "tokens": [
+   {
+    "name": "space-1",
+    "value": "4px",
+    "usage": "Icon-to-label gaps."
+   },
+   {
+    "name": "space-2",
+    "value": "8px",
+    "usage": "Tight stacks, chip padding."
+   },
+   {
+    "name": "space-3",
+    "value": "12px",
+    "usage": "Button vertical padding, list gaps."
+   },
+   {
+    "name": "space-4",
+    "value": "16px",
+    "usage": "Card inner padding on mobile, form field gaps."
+   },
+   {
+    "name": "space-6",
+    "value": "24px",
+    "usage": "Card inner padding, grid gutters on mobile."
+   },
+   {
+    "name": "space-8",
+    "value": "32px",
+    "usage": "Grid gutters on desktop, gaps between cards."
+   },
+   {
+    "name": "space-12",
+    "value": "48px",
+    "usage": "Space between blocks inside a section."
+   },
+   {
+    "name": "space-16",
+    "value": "64px",
+    "usage": "Section padding on mobile."
+   },
+   {
+    "name": "space-24",
+    "value": "96px",
+    "usage": "Section padding on desktop."
+   }
+  ]
+ },
+ "radius": {
+  "tokens": [
+   {
+    "name": "radius-sm",
+    "value": "4px",
+    "usage": "Tags, small badges, inputs' inner elements."
+   },
+   {
+    "name": "radius-md",
+    "value": "8px",
+    "usage": "Buttons, inputs, small cards."
+   },
+   {
+    "name": "radius-lg",
+    "value": "16px",
+    "usage": "Cards, images, panels."
+   },
+   {
+    "name": "radius-xl",
+    "value": "28px",
+    "usage": "Hero panels, feature images, app icon corners."
+   },
+   {
+    "name": "radius-pill",
+    "value": "999px",
+    "usage": "Pills, filter chips, the round logo disc's container."
+   }
+  ]
+ },
+ "shadow": {
+  "tokens": [
+   {
+    "name": "shadow-card",
+    "value": {
+     "light": "0 1px 2px rgba(15,26,20,0.06), 0 8px 24px rgba(15,26,20,0.08)",
+     "dark": "0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35)"
+    },
+    "usage": "Product and crop cards on surface. Prefer no shadow on surface-ivory."
+   },
+   {
+    "name": "shadow-raised",
+    "value": {
+     "light": "0 12px 40px rgba(15,26,20,0.14)",
+     "dark": "0 12px 40px rgba(0,0,0,0.5)"
+    },
+    "usage": "Menus, dialogs, the sticky header once scrolled."
+   }
+  ]
+ }
+}

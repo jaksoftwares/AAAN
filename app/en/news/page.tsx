@@ -6,7 +6,6 @@ import { newsCategories, type Article } from "@/content/news";
 import { PageHero, NewsCard } from "@/components/sections/blocks";
 import { Section, SectionHeader } from "@/components/ui/section";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
-import { ButtonLink } from "@/components/ui/button";
 
 export const metadata: Metadata = {
   title: "News and Insights · AAAN",
@@ -53,19 +52,9 @@ export default async function NewsPage({ searchParams }: { searchParams: SearchP
       </Section>
 
       <Section tone="ivory">
-        <div className="grid gap-12 lg:grid-cols-2">
-          <div>
-            <SectionHeader eyebrow="Newsletter" title="Get our monthly harvest update." intro="Harvest updates, market news and stories from the field, once a month." />
-            <div className="max-w-md">
-              <NewsletterForm />
-            </div>
-          </div>
-          <div>
-            <SectionHeader eyebrow="Press" title="Journalist?" intro="Download our logos, fact sheet and leadership photos." />
-            <div>
-              <ButtonLink href="/downloads/press-kit.zip" variant="ghost">Download press kit</ButtonLink>
-            </div>
-          </div>
+        <div className="max-w-xl">
+          <SectionHeader eyebrow="Newsletter" title="Get our monthly harvest update." intro="Harvest updates, market news and stories from the field, once a month." />
+          <NewsletterForm />
         </div>
       </Section>
     </>
