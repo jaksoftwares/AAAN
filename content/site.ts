@@ -129,6 +129,9 @@ export const openingHours = "Monday to Friday, 8:00 to 17:00 local time";
 // The main contact number for the whole site (header, error messages, legal pages). The other numbers are additional contacts.
 export const MAIN_PHONE = "+233 208 636 267";
 
+// The general email address for enquiries that do not need a form.
+export const MAIN_EMAIL = "info@aaan.africa";
+
 // Main WhatsApp line for the site: the same number as MAIN_PHONE.
 export const WHATSAPP_URL = "https://wa.me/233208636267";
 

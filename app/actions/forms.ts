@@ -9,7 +9,7 @@ import { saveEnquiry } from "@/lib/gateways/enquiries";
 import { saveFarmerSignup } from "@/lib/gateways/farmer-signups";
 import { saveSubscriber } from "@/lib/gateways/newsletter";
 import { SupabaseNotConfiguredError } from "@/lib/supabase/server";
-import { MAIN_PHONE } from "@/content/site";
+import { MAIN_EMAIL, MAIN_PHONE } from "@/content/site";
 
 // Server actions: every public form posts here. Each action runs the same steps:
 // honeypot check, rate limit, validation, routing, save, then a redirect or a message.
@@ -24,8 +24,8 @@ export type FormState = {
 const HOUR = 60 * 60 * 1000;
 const DAY = 24 * HOUR;
 
-const MSG_FAILED = `Something went wrong and your message was not sent. Please try again, or call us on ${MAIN_PHONE}.`;
-const MSG_RATE = `We have received several requests from your connection. Please try again later, or call us on ${MAIN_PHONE}.`;
+const MSG_FAILED = `Something went wrong and your message was not sent. Please try again, or call us on ${MAIN_PHONE} or email ${MAIN_EMAIL}.`;
+const MSG_RATE = `We have received several requests from your connection. Please try again later, or call us on ${MAIN_PHONE} or email ${MAIN_EMAIL}.`;
 
 async function clientIp(): Promise<string> {
   const h = await headers();

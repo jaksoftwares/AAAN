@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footerColumns, offices } from "@/content/site";
+import { footerColumns, MAIN_EMAIL, offices } from "@/content/site";
 import { taglines } from "@/content/facts";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
 
@@ -36,6 +36,12 @@ export function SiteFooter() {
                   ) : null}
                 </div>
               ))}
+              <div>
+                <p className="text-[15px] font-bold">General enquiries</p>
+                <a href={`mailto:${MAIN_EMAIL}`} className="text-[14px] text-ivory underline underline-offset-4">
+                  {MAIN_EMAIL}
+                </a>
+              </div>
             </div>
           </div>
 

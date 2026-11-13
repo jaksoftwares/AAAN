@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalDocument, LegalSection } from "@/components/legal/legal-document";
-import { MAIN_PHONE } from "@/content/site";
+import { MAIN_EMAIL, MAIN_PHONE } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy · AAAN",
@@ -103,7 +103,8 @@ export default function PrivacyPage() {
           <li>stop using it for newsletters or contact, by unsubscribing or by telling us.</li>
         </ul>
         <p>
-          To use these rights, contact us by phone or through the contact form. We will respond within the time set by the data protection law that applies
+          To use these rights, contact us by phone, by email at{" "}
+          <a href={`mailto:${MAIN_EMAIL}`} className="font-bold text-ink-brand underline underline-offset-4">{MAIN_EMAIL}</a>, or through the contact form. We will respond within the time set by the data protection law that applies
           to you. If you are not satisfied with our response, you can complain to the data protection authority in your country: the Office of the Data
           Protection Commissioner (Kenya), the Data Protection Commission (Ghana), or the Autorité de Régulation des Télécommunications de Côte d&apos;Ivoire
           (ARTCI), which handles personal data in Côte d&apos;Ivoire.

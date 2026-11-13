@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { offices, openingHours, enquiryReasons, WHATSAPP_URL, type EnquiryType } from "@/content/site";
+import { offices, openingHours, enquiryReasons, WHATSAPP_URL, MAIN_EMAIL, type EnquiryType } from "@/content/site";
 import { EnquiryForm } from "@/components/forms/enquiry-form";
 import { PageHero } from "@/components/sections/blocks";
 import { Section } from "@/components/ui/section";
@@ -74,6 +74,13 @@ export default async function ContactPage({ searchParams }: { searchParams: Prom
             <div>
               <H3 className="text-[18px]">Opening hours</H3>
               <p className="mt-2 text-[15px] text-ink-muted">{openingHours}</p>
+            </div>
+
+            <div>
+              <H3 className="text-[18px]">Email</H3>
+              <a href={`mailto:${MAIN_EMAIL}`} className="mt-2 block text-[15px] font-bold text-ink-brand underline-offset-4 hover:underline">
+                {MAIN_EMAIL}
+              </a>
             </div>
           </aside>
         </div>
